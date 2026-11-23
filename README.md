@@ -12,9 +12,6 @@ aliyun-slider-captcha-demo/
 │  ├─ __init__.py              # 对外接口
 │  ├─ solver.py                # 滑块识别、系统级拖动、登录与重试
 │  └─ selenium_bridge.py       # Playwright Cookie 同步到 Selenium
-├─ examples/
-│  ├─ login_flow.py            # 案例一：完整登录
-│  └─ selenium_cookie_sync.py  # 案例二：登录后接管 Selenium
 ├─ requirements.txt            # 固定版本依赖
 ├─ .gitignore
 └─ README.md
